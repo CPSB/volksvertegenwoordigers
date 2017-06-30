@@ -4,6 +4,6 @@ require 'vendor/autoload.php';
 
 use ActivismeBe\Parlement\Euro;
 
-$debatten = new \ActivismeBe\Parlement\Documenten();
+$debatten = new \ActivismeBe\Parlement\SchriftelijkeVraag();
 
-print $debatten->vind(1);
+print $debatten->schriftelijkeVraag(1);
