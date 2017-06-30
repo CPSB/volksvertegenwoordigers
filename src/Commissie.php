@@ -4,8 +4,16 @@ namespace ActivismeBe\Parlement;
 
 use GuzzleHttp\Exception\RequestException;
 
+/**
+ * Comissie
+ *
+ * @package ActivismeBe\Parlement
+ */
 class Commissie extends Base
 {
+    /**
+     * @return \Psr\Http\Message\StreamInterface|string
+     */
     public function huidige()
     {
         try {
@@ -16,6 +24,10 @@ class Commissie extends Base
         }
     }
 
+    /**
+     * @param null $legislatuur
+     * @return \Psr\Http\Message\StreamInterface|string
+     */
     public function legislatuur($legislatuur = null)
     {
         try {
@@ -31,6 +43,10 @@ class Commissie extends Base
         }
     }
 
+    /**
+     * @param null $commissieIds
+     * @return \Psr\Http\Message\StreamInterface|string
+     */
     public function lijst($commissieIds = null)
     {
         try {
@@ -43,6 +59,9 @@ class Commissie extends Base
         }
     }
 
+    /**
+     * @return \Psr\Http\Message\StreamInterface|string
+     */
     public function vorige()
     {
         try {
@@ -53,6 +72,11 @@ class Commissie extends Base
         }
     }
 
+    /**
+     * @param int $commissieId
+     * @param null $datum
+     * @return \Psr\Http\Message\StreamInterface|string
+     */
     public function commissieBijId(int $commissieId, $datum = null )
     {
         try {
@@ -69,6 +93,10 @@ class Commissie extends Base
         }
     }
 
+    /**
+     * @param int $commissieId
+     * @return \Psr\Http\Message\StreamInterface|string
+     */
     public function commissieAdreslijst(int $commissieId)
     {
         try {
@@ -79,6 +107,10 @@ class Commissie extends Base
         }
     }
 
+    /**
+     * @param int $commissieId
+     * @return \Psr\Http\Message\StreamInterface|string
+     */
     public function commissieAlleStvz(int $commissieId)
     {
         try {
@@ -89,6 +121,11 @@ class Commissie extends Base
         }
     }
 
+    /**
+     * @param int $commissieId
+     * @param null $status
+     * @return \Psr\Http\Message\StreamInterface|string
+     */
     public function standVanZaken(int $commissieId, $status = null)
     {
         if (is_null($status)) { $status = 'TE_BEHAND'; }
@@ -101,6 +138,10 @@ class Commissie extends Base
         }
     }
 
+    /**
+     * @param int $commissieId
+     * @return \Psr\Http\Message\StreamInterface|string
+     */
     public function verslagen(int $commissieId)
     {
         try {
@@ -111,6 +152,10 @@ class Commissie extends Base
         }
     }
 
+    /**
+     * @param int $commissieId
+     * @return \Psr\Http\Message\StreamInterface|string
+     */
     public function VergaderingGepland(int $commissieId)
     {
         try {

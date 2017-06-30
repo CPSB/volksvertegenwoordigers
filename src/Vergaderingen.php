@@ -97,26 +97,41 @@ class Vergaderingen extends Base
 
     }
 
+    /**
+     *
+     */
     public function zoekVolledig()
     {
 
     }
 
+    /**
+     *
+     */
     public function vorige()
     {
 
     }
 
+    /**
+     *
+     */
     public function vindOpId()
     {
 
     }
 
+    /**
+     *
+     */
     public function vergaderingAgenda()
     {
 
     }
 
+    /**
+     *
+     */
     public function zoek()
     {
 
