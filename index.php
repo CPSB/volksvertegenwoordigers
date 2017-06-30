@@ -1,9 +1,9 @@
-<?php 
+<?php
 
 require 'vendor/autoload.php';
 
-use ActivismeBe\Parlement\Commissie;
+use ActivismeBe\Parlement\Euro;
 
-$debatten = new Commissie();
+$debatten = new \ActivismeBe\Parlement\Documenten();
 
-print $debatten->lijst('560540,560547');
+print $debatten->vind(1);
