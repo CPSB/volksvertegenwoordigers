@@ -14,6 +14,9 @@ class Statistieken extends Base
     /**
      * Geeft alle statistieken voor een commissie per zittingsjaar, per type en per object type.
      *
+     * @see
+     * @see todo: schrijf documentatie bestand.
+     *
      * @param int       $id             Path en vereiste parameter. ID van de commissie.
      * @param string    $zittingsJaar   Path en vereiste parameter. Zitingsjaar, bijv. 2011-2012
      *

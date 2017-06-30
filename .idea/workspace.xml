@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="082b2518-e1dc-47ce-b822-b4fc95c86170" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Vergaderingen.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JournaalLijn.php" afterPath="$PROJECT_DIR$/src/JournaalLijn.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ParlementaireInitiatieven.php" afterPath="$PROJECT_DIR$/src/ParlementaireInitiatieven.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SchriftelijkeVraag.php" afterPath="$PROJECT_DIR$/src/SchriftelijkeVraag.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Statistieken.php" afterPath="$PROJECT_DIR$/src/Statistieken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Vergaderingen.php" afterPath="$PROJECT_DIR$/src/Vergaderingen.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,21 +68,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParlementaireInitiatieven.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ParlementaireInitiatieven.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ParlementaireInitiatieven.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="357">
+              <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SchriftelijkeVraag.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SchriftelijkeVraag.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SchriftelijkeVraag.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,8 +91,8 @@
       <file leaf-file-name="Statistieken.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Statistieken.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="289">
+              <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -112,8 +111,8 @@
       <file leaf-file-name="Vergaderingen.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Vergaderingen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
-              <caret line="90" column="80" lean-forward="false" selection-start-line="90" selection-start-column="80" selection-end-line="90" selection-end-column="80" />
+            <state relative-caret-position="148">
+              <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
               <folding>
                 <element signature="e#899#1334#0#PHP" expanded="false" />
                 <element signature="e#3302#3345#0#PHP" expanded="false" />
@@ -141,12 +140,12 @@
         <option value="$PROJECT_DIR$/src/Hoorzitting.php" />
         <option value="$PROJECT_DIR$/src/Legislaturen.php" />
         <option value="$PROJECT_DIR$/src/Documenten.php" />
-        <option value="$PROJECT_DIR$/src/ParlementaireInitiatieven.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/src/Vergaderingen.php" />
         <option value="$PROJECT_DIR$/src/JournaalLijn.php" />
+        <option value="$PROJECT_DIR$/src/Vergaderingen.php" />
         <option value="$PROJECT_DIR$/src/Statistieken.php" />
         <option value="$PROJECT_DIR$/src/SchriftelijkeVraag.php" />
+        <option value="$PROJECT_DIR$/src/ParlementaireInitiatieven.php" />
       </list>
     </option>
   </component>
@@ -314,18 +313,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498840965242</updated>
-      <workItem from="1498840966534" duration="12936000" />
+      <workItem from="1498840966534" duration="14042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12936000" />
+    <option name="totallyTimeSpent" value="14042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945295" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945295" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -417,34 +416,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParlementaireInitiatieven.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vergaderingen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="90" column="80" lean-forward="false" selection-start-line="90" selection-start-column="80" selection-end-line="90" selection-end-column="80" />
-          <folding>
-            <element signature="e#899#1334#0#PHP" expanded="false" />
-            <element signature="e#3302#3345#0#PHP" expanded="false" />
-            <element signature="e#3351#3388#0#PHP" expanded="false" />
-            <element signature="e#3394#3433#0#PHP" expanded="false" />
-            <element signature="e#3439#3487#0#PHP" expanded="false" />
-            <element signature="e#3493#3528#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -456,18 +432,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vergaderingen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="e#899#1334#0#PHP" expanded="false" />
+            <element signature="e#3302#3345#0#PHP" expanded="false" />
+            <element signature="e#3351#3388#0#PHP" expanded="false" />
+            <element signature="e#3394#3433#0#PHP" expanded="false" />
+            <element signature="e#3439#3487#0#PHP" expanded="false" />
+            <element signature="e#3493#3528#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Statistieken.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="289">
+          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SchriftelijkeVraag.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParlementaireInitiatieven.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
           <folding />
         </state>
       </provider>

@@ -14,7 +14,7 @@ class Vergaderingen extends Base
     /**
      * Geeft de lijst van de vergaderingen die nu bezig zijn van de plenaire of een commissie.
      *
-     * @url
+     * @see
      * @see todo: schrijf documentatie bestand.
      *
      * @param  string|null  $status     Query parameter. Kies de waarde plenaire (plen) of
@@ -44,7 +44,7 @@ class Vergaderingen extends Base
     /**
      * Geeft de lijst van de toekomstige vergaderingen van de plenaire of een commissie.
      *
-     * @url
+     * @see
      * @see: todo: schrijf documentatie bestand.
      *
      * @param  string|null  $type       Query parameter. Kies aarde plenaire of commissievergadering
@@ -84,7 +84,7 @@ class Vergaderingen extends Base
      * Geeft beschrijvende gegevens van vergaderingen op basis van de id's van de vergaderingen.
      * Niet bestaande id's worden genegeerd door de service. Niet numerieke id's rsulteren in een HTTP Status 400.
      *
-     * @url http://ws.vlpar.be/e/opendata/api/#!/verg/getLijst
+     * @see http://ws.vlpar.be/e/opendata/api/#!/verg/getLijst
      * @see todo: schrijf deocumentatie bestand.
      *
      * @param  string|null $id      Query parameter. ID's van de gevraagde vergaderingen.
