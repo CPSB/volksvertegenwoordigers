@@ -1,6 +1,6 @@
 # volksvertegenwoordigers
 
-![Vlaanderen](http://www.ditisvlaanderen.be/sites/all/themes/customtheme/logo.png)
+<img src="http://www.ditisvlaanderen.be/sites/all/themes/customtheme/logo.png" style="width:100%;" alt="Logo Vlaanderen">
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
