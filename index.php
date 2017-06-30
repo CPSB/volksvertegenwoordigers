@@ -4,6 +4,6 @@ require 'vendor/autoload.php';
 
 use ActivismeBe\Parlement\Euro;
 
-$debatten = new \ActivismeBe\Parlement\Statistieken();
+$debatten = new \ActivismeBe\Parlement\Vergaderingen();
 
-print $debatten->getStatistieken(1, '2011-2012');
+print $debatten->bezig();

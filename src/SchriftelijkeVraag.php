@@ -4,6 +4,11 @@ namespace ActivismeBe\Parlement;
 
 use GuzzleHttp\Exception\RequestException;
 
+/**
+ * Class SchriftelijkeVraag
+ *
+ * @package ActivismeBe\Parlement
+ */
 class SchriftelijkeVraag extends Base
 {
     public function lijst(int $ids = null)
