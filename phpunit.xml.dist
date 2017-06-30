@@ -11,7 +11,7 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name=":vendor Test Suite">
+        <testsuite name="activismebe Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
