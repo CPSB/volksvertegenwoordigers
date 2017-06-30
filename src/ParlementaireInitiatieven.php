@@ -12,11 +12,11 @@ use GuzzleHttp\Exception\RequestException;
 class ParlementaireInitiatieven extends Base
 {
     /**
-     * Geefty beschrijvende gegevens van parlementaire initiatieven op bases van de id's van de initiatieven.
+     * Geeft beschrijvende gegevens van parlementaire initiatieven op bases van de id's van de initiatieven.
      * Niet bestaande id's worden genegeerd door de service. Niet numerieke id's resulteren in een HTTP Status 400.
      *
      * @see http://ws.vlpar.be/e/opendata/api/#!/pi/getLijst
-     * @see todo: szchrijf documentatie document.
+     * @see todo: schrijf documentatie document.
      *
      * @param  int $id      Query en vereiste parameter. ID's van de gevraagde initiatieven. ID's zijn numeriek,
      *                      gescheiden door komma's.
@@ -33,6 +33,17 @@ class ParlementaireInitiatieven extends Base
         }
     }
 
+    /**
+     * Geeft alle data over een parlementair initiatief.
+     * Gegevens worden door VP gebruikt om de fuche over een parlementair initiatief op te bouwen.
+     *
+     * @see http://ws.vlpar.be/e/opendata/api/#!/pi/getPI
+     * @see todo: schrijf documentatie document.
+     *
+     * @param  int $id      Path en vereiste parameter. ID van het parlementair initiatief.
+     *
+     * @return \Psr\Http\Message\StreamInterface
+     */
     public function initiatief(int $id)
     {
         try {
