@@ -6,7 +6,14 @@
     - (Class) Commissie
         - (Function) huidige()
         - (Function) legislatuur($legistlatuur)
-        
+        - (Function) lijst($commissieIds)
+        - (Function) vorige()
+        - (Function) commissieBijId($comissieId, $datum)
+        - (Function) comissieAdreslijst($commissieId)
+        - (Function) commissieAlletvz($commissieId)
+        - (Function) standVanZaken($commissieId, $status)
+        - (Function) verslagen($commissieId)
+        - (Function) VergaderingGepland(§$commissieId)
     
     - (Class) Debat
     - (Class) Documenten
