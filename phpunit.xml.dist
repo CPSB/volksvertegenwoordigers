@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8">
+<?xml version="1.0" encoding="UTF-8"?>
 <phpunit bootstrap="vendor/autoload.php"
          backupGlobals="false"
-         backupStatucAttributes="false"
          backupStaticAttributes="false"
          colors="true"
          verbose="true"
@@ -11,7 +10,7 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="activismebe Test Suite">
+        <testsuite name="Application Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
