@@ -57,4 +57,13 @@
         - (Function) vergaderingAgenda()
         - (Function) zoek() 
         - (Function) vergaderingHandelingen($vergId, $highlight)
+        
+    - (Class) Volksvertegenwoordigers
+        - (Function) adreslijst()
+        - (Function) bureau() 
+        - (Function) gewezen()
+        - (Function) huidige() 
+        - (Function) lijst()
+        - (Function) bureauUitgebreid() 
+        - (Function) persoon($id)
 ```
